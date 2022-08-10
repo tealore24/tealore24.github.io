@@ -1,2 +1,2 @@
-# tealore.github.io
+# tealore24.github.io
 My website
