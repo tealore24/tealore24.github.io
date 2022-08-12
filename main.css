@@ -100,19 +100,17 @@ body {
   background: #1c1c1c;
   animation-duration: 2s;
   animation-name: slidein;
-  font-size: 140%;
+  font-size: 170%;
 }
 
 ul {
   font-family: "Vinnytsia Sans Reg";
   list-style-type: '• ';
-  font-size: 165%;
 }
 
 p {
   font-family: "Vinnytsia Sans Reg";
   opacity: 0.5;
-  font-size: 165%;
 }
 
 img#right-image {
