@@ -100,12 +100,6 @@ body {
   background: #1c1c1c;
   animation-duration: 2s;
   animation-name: slidein;
-}
-
-h1 {
-  font-size: 140%;
-}
-h2 {
   font-size: 140%;
 }
 
