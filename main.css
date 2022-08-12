@@ -114,7 +114,6 @@ p {
 }
 
 img#right-image {
-  @media screen (width < 640px) { display: none; }
   position: fixed;
   right: 0;
   top: 0;
