@@ -98,20 +98,27 @@ body {
   margin-top: 8%;
   color: #FFFFFF;
   background: #1c1c1c;
-  font-size: 140%;
   animation-duration: 2s;
   animation-name: slidein;
 }
 
+h1 {
+  font-size: 140%;
+}
+h2 {
+  font-size: 140%;
+}
 
 ul {
   font-family: "Vinnytsia Sans Reg";
   list-style-type: '• ';
+  font-size: 165%;
 }
 
 p {
   font-family: "Vinnytsia Sans Reg";
   opacity: 0.5;
+  font-size: 165%;
 }
 
 img#right-image {
