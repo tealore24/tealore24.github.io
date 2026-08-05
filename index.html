@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>tlrOS!</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+  <meta name="color-scheme" content="only dark">
+  <link rel="icon" type="image/png" href="./images/icon.png">
+  <link rel="apple-touch-icon" href="./images/icon.png">
+</head>
+<body>
+
+  <!-- НОВЫЙ ДИНАМИЧЕСКИЙ LOADER С КРУТЯЩИМСЯ ВИНИЛОМ -->
+  <div id="loading-screen">
+    <div class="disc-wrapper">
+      <img src="./images/loading.png" alt="Loading..." class="loading-disc">
+    </div>
+  </div>
+
+  <div id="bg-layer"></div>
+
+  <nav id="top-bar">
+    <div class="menu-left">
+      <span class="os-brand">[ tlrOS v0.67 ]</span>
+      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">File</a>
+      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Edit</a>
+      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">View</a>
+      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">History</a>
+      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Help</a>
+    </div>
+    <div class="menu-right">
+      <span id="sys-clock">00:00</span>
+    </div>
+  </nav>
+
+  <div class="workspace">
+    <main class="terminal fastfetch-term">
+      <div class="prompt">
+        <span class="user">tealore</span>@<span class="host">localhost</span>:<span class="path">~</span>$ fastfetch
+      </div>
+
+      <div class="fetch-container">
+        <div class="logo-box">
+          <img src="./images/logo.png" alt="tealore logo">
+        </div>
+
+        <div class="info-box">
+          <div class="title">
+            <span class="username">tealore</span>@<span class="hostname">localhost</span>
+          </div>
+          <div class="separator">• ━──────≪ ✷ ≫──────━ •</div>
+
+          <div class="info-line">
+            <span class="key">OS</span>: tlrOS v0.67 x86_64
+          </div>
+          <div class="info-line">
+            <span class="key">Roles</span>: Musician, Sound Designer, Artist, Photographer, Graphic Designer, IT Enthusiast
+          </div>
+
+          <div class="separator">• ━──────≪ ✷ ≫──────━ •</div>
+
+          <div class="info-line">
+            <span class="key">Host (Main)</span>: RTX 4060 Ti, i5-12400F, 32GB DDR4 [Windows 10]
+          </div>
+          <div class="info-line">
+            <span class="key">Host (Portable)</span>: MacBook Air M1 (8/256) [macOS & Fedora Asahi Remix]
+          </div>
+          <div class="info-line">
+            <span class="key">Mobile (Daily)</span>: Nothing Phone (3a) Pro [Nothing OS 4.1]
+          </div>
+          <div class="info-line">
+            <span class="key">Mobile (Lab)</span>: iPhone Xs Max [iOS 16.1 w/ Dopamine RootHide & TrollStore]
+          </div>
+
+          <div class="separator">• ━──────≪ ✷ ≫──────━ •</div>
+
+          <div class="info-line">
+            <span class="key">Music Software</span>: FL Studio & Ableton Live
+          </div>
+          <div class="info-line">
+            <span class="key">Most Used VSTs</span>: Vital, Serum 2, Ozone 11, Kilohearts, MeltaProduction, Chroma & PITCHMAP
+          </div>
+          <div class="info-line">
+            <span class="key">Art & Graphics Software</span>: Figma, FireAlpaca, Ibis Paint X, Snapseed
+          </div>
+          <div class="info-line">
+            <span class="key">Development Software</span>: Micro (CLI)... yes, I'm weird
+          </div>
+
+          <div class="separator">• ━──────≪ ✷ ≫──────━ •</div>
+
+          <div class="info-line">
+            <span class="key">My Music</span>: <a href="https://soundcloud.com/tealxre" target="_blank">SoundCloud</a> / <a href="https://open.spotify.com/artist/3iN2E3VlQ4GpYIarupSbTe" target="_blank">Spotify</a>
+          </div>
+          <div class="info-line">
+            <span class="key">Telegram</span>: <a href="https://telegram.me/tlr_channel" target="_blank">Main Channel</a> / <a href="https://telegram.me/tlr_basement" target="_blank">Design Portfolio</a>
+          </div>
+          <div class="info-line">
+            <span class="key">OthersideCraft</span>: <a href="https://www.curseforge.com/minecraft/modpacks/othersidecraft" target="_blank">CurseForge</a>
+          </div>
+
+          <div class="colors" id="palette">
+            <div class="color-block cb-black" title="Click to set accent"></div>
+            <div class="color-block cb-red" title="Click to set accent"></div>
+            <div class="color-block cb-green" title="Click to set accent"></div>
+            <div class="color-block cb-yellow" title="Click to set accent"></div>
+            <div class="color-block cb-blue" title="Click to set accent"></div>
+            <div class="color-block cb-magenta" title="Click to set accent"></div>
+            <div class="color-block cb-cyan" title="Click to set accent"></div>
+            <div class="color-block cb-white" title="Click to set accent"></div>
+            <div class="color-block cb-bright-black" title="Click to set accent"></div>
+            <div class="color-block cb-bright-red" title="Click to set accent"></div>
+            <div class="color-block cb-bright-green" title="Click to set accent"></div>
+            <div class="color-block cb-bright-yellow" title="Click to set accent"></div>
+            <div class="color-block cb-bright-blue" title="Click to set accent"></div>
+            <div class="color-block cb-bright-magenta" title="Click to set accent"></div>
+            <div class="color-block cb-bright-cyan" title="Click to set accent"></div>
+            <div class="color-block cb-bright-white" title="Click to set accent"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <main class="terminal meowplayer-term">
+      <div class="prompt">
+        <span class="user">tealore</span>@<span class="host">localhost</span>:<span class="path">~</span>$ meowplayer
+      </div>
+      
+      <div class="player-container">
+        <div class="track-art-box">
+          <img id="track-cover" src="./images/default-cover.jpg" alt="Track Cover">
+          <canvas id="cava-visualizer"></canvas>
+        </div>
+        
+        <div class="track-meta">
+          <div id="track-title" class="track-title">Loading...</div>
+          <div id="track-artist" class="track-artist">tealore</div>
+        </div>
+
+        <div class="progress-wrapper">
+          <span id="time-current" class="time-stamp">0:00</span>
+          <div class="progress-bar-container" id="progress-container">
+            <div class="progress-fill" id="progress-fill"></div>
+          </div>
+          <span id="time-total" class="time-stamp">0:00</span>
+        </div>
+
+        <div class="player-controls">
+          <button id="btn-prev" class="ctrl-btn">[ &lt;&lt; ]</button>
+          <button id="btn-play" class="ctrl-btn">[ PLAY ]</button>
+          <button id="btn-next" class="ctrl-btn">[ &gt;&gt; ]</button>
+        </div>
+
+        <div class="info-group">
+          <div class="info-line">
+            <span class="key">Info</span>: m4a // 44.1 kHz // Stereo
+          </div>
+          <div class="info-line">
+            <span class="key">Version</span>: meowplayer v0.67
+          </div>
+        </div>
+        
+      </div>
+    </main>
+  </div>
+
+</body>
+</html>
