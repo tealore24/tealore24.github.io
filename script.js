@@ -17,6 +17,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const playlist = [
     {
+      title: "BLOOM",
+      artist: "tealxre",
+      file: "./audio/BLOOM.mp3",
+      cover: "./images/BLOOM.jpg"
+    },
+    {
       title: "DENSITY",
       artist: "tealxre",
       file: "./audio/DENSITY.m4a",
