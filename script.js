@@ -16,10 +16,16 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   const playlist = [
+  	{
+      title: "afterglow",
+      artist: "tealxre, violetssky, alxrawrie, Y0zuru",
+      file: "./audio/afterglow.m4a",
+      cover: "./images/afterglow.jpg"
+    },
     {
       title: "BLOOM",
       artist: "tealxre",
-      file: "./audio/BLOOM.mp3",
+      file: "./audio/BLOOM.m4a",
       cover: "./images/BLOOM.jpg"
     },
     {
